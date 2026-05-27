@@ -21,7 +21,6 @@ class TaskSerializer(serializers.ModelSerializer):
         fields = ['id', 'title', 'description', 'is_completed', 'deadline', 
                   'created_at', 'category', 'category_id', 'tags', 'tag_ids']
 
-# ⚠️ ВАЖНО: Класс должен называться именно так, чтобы совпадал с импортом в views.py
 class CommentSerializer(serializers.ModelSerializer):
     class Meta:
         model = TaskComment

@@ -22,7 +22,7 @@ staticfiles/
 *.swp
 *.swo
 
-# Переменные окружения (пароли, ключи)
+# Пароли, ключи
 .env
 .env.local
 
@@ -30,6 +30,6 @@ staticfiles/
 .DS_Store
 Thumbs.db
 
-# Миграции (если нужно игнорировать, но обычно НЕТ)
+# Миграции
 # */migrations/*.py
 # !*/migrations/__init__.py
