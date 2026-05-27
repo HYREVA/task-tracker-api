@@ -1,0 +1,35 @@
+# Виртуальное окружение
+venv/
+env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Переменные окружения (пароли, ключи)
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Миграции (если нужно игнорировать, но обычно НЕТ)
+# */migrations/*.py
+# !*/migrations/__init__.py
