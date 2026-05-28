@@ -19,5 +19,5 @@ class TaskAdmin(admin.ModelAdmin):
 
 @admin.register(TaskComment)
 class TaskCommentAdmin(admin.ModelAdmin):
-    list_display = ['id', 'task', 'author', 'note']  # ✅ Исправлено: created_at -> note
+    list_display = ['id', 'task', 'author', 'note']
     search_fields = ['author', 'note']

@@ -18,8 +18,7 @@ class TaskSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = Task
-        fields = ['id', 'title', 'description', 'is_completed', 'deadline', 
-                  'created_at', 'category', 'category_id', 'tags', 'tag_ids']
+        fields = ['id', 'title', 'description', 'is_completed', 'deadline', 'created_at', 'category', 'category_id', 'tags', 'tag_ids']
 
 class CommentSerializer(serializers.ModelSerializer):
     class Meta:
